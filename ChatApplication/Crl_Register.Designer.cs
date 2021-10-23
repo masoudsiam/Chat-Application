@@ -57,7 +57,6 @@ namespace ChatApplication
             this.Txt_PhoneNumber = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.Txt_Name = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.Pb_Image = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.Lbl_Title = new Bunifu.UI.WinForms.BunifuLabel();
             this.Pnl_Main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pb_Image)).BeginInit();
             this.SuspendLayout();
@@ -73,7 +72,6 @@ namespace ChatApplication
             this.Pnl_Main.Controls.Add(this.Txt_PhoneNumber);
             this.Pnl_Main.Controls.Add(this.Txt_Name);
             this.Pnl_Main.Controls.Add(this.Pb_Image);
-            this.Pnl_Main.Controls.Add(this.Lbl_Title);
             this.Pnl_Main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Pnl_Main.Location = new System.Drawing.Point(0, 0);
             this.Pnl_Main.Name = "Pnl_Main";
@@ -480,20 +478,6 @@ namespace ChatApplication
             this.Pb_Image.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
             this.Pb_Image.Click += new System.EventHandler(this.Pb_Image_Click);
             // 
-            // Lbl_Title
-            // 
-            this.Lbl_Title.AutoEllipsis = false;
-            this.Lbl_Title.CursorType = null;
-            this.Lbl_Title.Font = new System.Drawing.Font("Segoe UI Semilight", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Title.Location = new System.Drawing.Point(39, 35);
-            this.Lbl_Title.Name = "Lbl_Title";
-            this.Lbl_Title.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Lbl_Title.Size = new System.Drawing.Size(223, 42);
-            this.Lbl_Title.TabIndex = 0;
-            this.Lbl_Title.Text = "Please enter your information and\r\nupload a photo.";
-            this.Lbl_Title.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.Lbl_Title.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // Crl_Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -522,6 +506,5 @@ namespace ChatApplication
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox Txt_PhoneNumber;
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox Txt_Name;
         private Bunifu.UI.WinForms.BunifuPictureBox Pb_Image;
-        private Bunifu.UI.WinForms.BunifuLabel Lbl_Title;
     }
 }

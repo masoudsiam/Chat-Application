@@ -236,7 +236,4 @@
         fyerrQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="Lbl_Title.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 1.2px; font-family: 'Segoe UI Semilight'; font-size: 11.25pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: ; text-align: left; }</value>
-  </data>
 </root>
